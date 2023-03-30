@@ -20,9 +20,10 @@ body {
 .hero-leftside h1 {
   font-weight: 400;
   font-size: 96px;
-  height: 164px;
+  height: 144px;
   margin-left: 80px;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
+  margin-top: 100px;
   color: var(--main-black);
 }
 .hero-leftside p {
@@ -75,7 +76,7 @@ body {
   width: 35px;
   height: 24px;
   margin-left: 12px;
-  margin-bottom: -8px;
+  margin-bottom: -1px;
 }
 @media (max-width: 1024px) {
   .hero-image img {
