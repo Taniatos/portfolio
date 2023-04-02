@@ -143,3 +143,32 @@ h2 {
   margin-top: 16px;
 }
 
+.p-projects {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--main-black);
+  font-size: 22px;
+}
+.heading-projects {
+margin-bottom: 40px;
+}
+.container-projects {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.image-clock .image-weather .image-oranges{
+  max-width: 500px;
+}
+.p-descr {
+  font-size: 20px;
+  max-width: 400px;
+  max-height: 125px;
+}
+.btn-projects {
+  margin-top: 40px;
+}
+.row-weather {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
