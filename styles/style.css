@@ -8,10 +8,14 @@ body {
   background: var(--main-white);
   font-family: var(--font);
 }
+.screen {
+  min-height: 100vh;
+}
 .hero-screen {
   display: flex;
   justify-content: space-evenly;
   max-width: 100%;
+  min-height: 100vh;
 }
 .hero-image img {
   width: 609px;
@@ -138,10 +142,14 @@ h2 {
   margin-top: 40px;
   color: var(--main-black);
 }
+.p-about a {
+  text-decoration: none;
+}
 .icons-about-me {
   margin-right: 12px;
   color: var(--main-black);
   margin-top: 16px;
+  margin-bottom: 100px;
 }
 
 .p-projects {
@@ -198,9 +206,8 @@ h2 {
   max-width: 46px;
 }
 .nav-style {
-  background: #2e1541;
-  max-width:100%;
-
+  background: var(--main-black);
+  max-width: 100%;
 }
 .menu-style {
   color: var(--main-white);
@@ -214,4 +221,23 @@ h2 {
 }
 .all-options {
   margin-left: 60px;
+}
+footer {
+  background: var(--main-black);
+  height: 140px;
+  color: var(--main-white);
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.footer-icon {
+  color: var(--main-white);
+  text-decoration: none;
+  margin-left: 16px;
+}
+.footer-logo {
+  margin-top: 52px;
+}
+.footer-icons {
+  margin-top: 58px;
 }
