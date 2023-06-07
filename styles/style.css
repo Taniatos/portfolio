@@ -178,6 +178,28 @@ h2 {
 .all-options {
   margin-left: 60px;
 }
+
+.certificates-box {
+  margin-top: 40px;
+  max-width: 500px;
+}
+.certificates-box a {
+  text-decoration: none;
+}
+.certificate-img {
+  max-width: 120px;
+  margin-top: 24px;
+  margin-right: 16px;
+}
+.icons-box {
+  max-width: 500px;
+  margin-top: 40px;
+  color: var(--main-black);
+}
+.icons-box a {
+  text-decoration: none;
+}
+
 footer {
   background: var(--main-black);
   height: 140px;
