@@ -176,7 +176,7 @@ h2 {
   transition: all 300ms ease-in-out;
 }
 .all-options {
-  margin-left: 60px;
+  margin-left: auto;
 }
 
 .certificates-box {
