@@ -101,7 +101,8 @@ h2 {
 .p-about a {
   text-decoration: none;
 }
-.icons-about-me {
+.icon-about-me,
+.icon-contacts {
   margin-right: 12px;
   color: var(--main-black);
   margin-top: 16px;
@@ -144,11 +145,12 @@ h2 {
   color: var(--main-black);
   font-size: 24px;
 }
-.p-find {
-  margin-top: 60px;
-}
+
 .icons-contact {
   text-align: center;
+}
+.p-find {
+  margin-top: 60px;
 }
 .p-thanks {
   text-align: center;
@@ -221,6 +223,7 @@ footer {
 }
 .github {
   text-align: center;
+  font-size: 14px;
 }
 @media (max-width: 1024px) {
   .hero-image img {
