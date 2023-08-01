@@ -123,9 +123,6 @@ h2 {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.image-clock .image-weather .image-oranges {
-  max-width: 500px;
-}
 .p-descr {
   font-size: 20px;
   max-width: 400px;
@@ -134,9 +131,9 @@ h2 {
 .btn-projects {
   margin-top: 40px;
 }
-.row-weather {
-  margin-top: 100px;
-  margin-bottom: 100px;
+.rows-projects {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .contacts {
   text-align: center;
@@ -202,6 +199,7 @@ h2 {
   text-decoration: none;
 }
 
+/* Footer */
 footer {
   background: var(--main-black);
   height: 140px;
@@ -225,6 +223,8 @@ footer {
   text-align: center;
   font-size: 14px;
 }
+
+/* Responsive */
 @media (max-width: 1024px) {
   .hero-image img {
     width: 400px;
