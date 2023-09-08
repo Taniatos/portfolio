@@ -108,7 +108,12 @@ h2 {
   margin-top: 16px;
   margin-bottom: 100px;
 }
-
+.icon-about-me {
+  transition: transform 0.3s ease-in-out;
+}
+.icon-about-me:hover {
+  transform: scale(1.5);
+}
 .p-projects {
   max-width: 600px;
   text-align: center;
@@ -189,6 +194,10 @@ h2 {
   max-width: 120px;
   margin-top: 24px;
   margin-right: 16px;
+  transition: transform 0.3s ease-in-out;
+}
+.certificate-img:hover {
+  transform: scale(1.2);
 }
 .icons-box {
   max-width: 500px;
